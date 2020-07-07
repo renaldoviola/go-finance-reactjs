@@ -48,23 +48,26 @@ export const Card = styled.div`
 `;
 
 export const TableContainer = styled.section`
-  margin-top: 64px;
+  margin-top: 20px;
 
   table {
     width: 100%;
     border-spacing: 0 8px;
 
     th {
-      color: #969cb3;
-      font-weight: normal;
+      color: #363f5f;
+      font-weight: bold;
       padding: 20px 32px;
       text-align: left;
       font-size: 16px;
       line-height: 24px;
     }
+    tr.bordered {
+      border-bottom: 1px solid #000;
+    }
 
     td {
-      padding: 20px 32px;
+      padding: 18px 30px;
       border: 0;
       background: #fff;
       font-size: 16px;
